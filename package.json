@@ -1,0 +1,53 @@
+{
+  "name": "fitnesspassadminapp",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/moment": "1.3.13",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/pickers": "^3.2.10",
+    "aor-tinymce-input": "^1.0.0",
+    "array-move": "^3.0.1",
+    "copyfiles": "^2.3.0",
+    "date-fns": "^2.0.0-alpha.7",
+    "highcharts": "^8.1.2",
+    "highcharts-react-official": "^3.0.0",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.1",
+    "ra-core": "^3.8.0",
+    "ra-data-json-server": "^3.8.5",
+    "ra-input-array-sortable": "^1.0.1",
+    "ra-input-markdown": "^1.4.0",
+    "ra-language-spanish": "^1.0.0",
+    "ra-tinymce-input": "^1.2.3",
+    "react": "^16.3.1",
+    "react-admin": "^3.8.1",
+    "react-admin-color-input": "^3.0.0-beta.0",
+    "react-date-picker": "^10.5.0",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^16.8.1",
+    "react-final-form": "^6.5.7",
+    "react-scripts": "^5.0.1",
+    "react-sortable-hoc": "^1.11.0",
+    "redux-form": "^8.3.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && copyfiles ./build/* ./build/static/* ./build/static/css/* ./build/static/js/* ../../public/admin",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "https://www.beholos.com/admin/build",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
